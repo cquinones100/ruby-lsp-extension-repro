@@ -11,6 +11,9 @@ class User
   extend CommonRelationMethods
   extend GeneratedRelationMethods
 
+  sig { returns(T.untyped) }
+  def testing_method_2; end
+
   private
 
   sig { returns(NilClass) }
